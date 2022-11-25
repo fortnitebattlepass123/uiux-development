@@ -1,0 +1,262 @@
+[ 
+    {
+        "name": "Oak Chair",
+        "type": "chair",
+        "price": 350,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/2a/Oak_Chair.png/36px-Oak_Chair.png"
+    },
+    {
+        "name": "Walnut Chair",
+        "type": "chair",
+        "price": 350,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3f/Walnut_Chair.png/36px-Walnut_Chair.png"
+    },
+    {
+        "name": "Birch Chair",
+        "type": "chair",
+        "price": 350,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/0a/Birch_Chair.png/36px-Birch_Chair.png"
+    },
+    {
+        "name": "Mahogany Chair",
+        "type": "chair",
+        "price": 1000,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/ea/Mahogany_Chair.png/36px-Mahogany_Chair.png"
+    },
+    {
+        "name": "Pink Office Chair",
+        "type": "chair",
+        "price": 500,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e7/Pink_Office_Chair.png/36px-Pink_Office_Chair.png"
+    },
+    {
+        "name": "Stump Seat",
+        "type": "chair",
+        "price": 2000,
+        "rare": true,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/49/Stump_Seat.png/36px-Stump_Seat.png"
+    },
+    {
+        "name": "Blue Couch",
+        "type": "couch",
+        "price": 1750,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/21/Blue_Couch.png/72px-Blue_Couch.png"
+    },
+    {
+        "name": "Brown Couch",
+        "type": "couch",
+        "price": 1750,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a6/Brown_Couch.png/72px-Brown_Couch.png"
+    },
+    {
+        "name": "Dark Couch",
+        "type": "couch",
+        "price": 2000,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/ad/Dark_Couch.png/72px-Dark_Couch.png"
+    },
+    {
+        "name": "Woodsy Couch",
+        "type": "couch",
+        "price": 3000,
+        "rare": true,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/67/Woodsy_Couch.png/72px-Woodsy_Couch.png"
+    },
+    {
+        "name": "Oak Table",
+        "type": "table",
+        "price": 750,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/15/Oak_Table.png/72px-Oak_Table.png"
+    },
+    {
+        "name": "Birch Table",
+        "type": "table",
+        "price": 750,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/95/Birch_Table.png/72px-Birch_Table.png"
+    },
+    {
+        "name": "Walnut Table",
+        "type": "table",
+        "price": 750,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/6f/Walnut_Table.png/72px-Walnut_Table.png"
+    },
+    {
+        "name": "Birch Bench",
+        "type": "bench",
+        "price": 750,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/29/Birch_Bench.png/54px-Birch_Bench.png"
+    },
+    {
+        "name": "Oak Bench",
+        "type": "bench",
+        "price": 750,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a3/Oak_Bench.png/54px-Oak_Bench.png"
+    },
+    {
+        "name": "Walnut Bench",
+        "type": "bench",
+        "price": 750,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/fc/Walnut_Bench.png/54px-Walnut_Bench.png"
+    },
+    {
+        "name": "Mahogany Bench",
+        "type": "bench",
+        "price": 2000,
+        "rare": true,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/cb/Mahogany_Bench.png/54px-Mahogany_Bench.png"
+    },
+    {
+        "name": "Dark Bookcase",
+        "type": "bookcase",
+        "price": 2000,
+        "rare": true,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/cd/Dark_Bookcase.png/72px-Dark_Bookcase.png"
+    },
+    {
+        "name": "Oak Dresser",
+        "type": "dresser",
+        "price": 5000,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/37/Oak_Dresser.png/72px-Oak_Dresser.png"
+    },
+    {
+        "name": "Brick Fireplace",
+        "type": "fireplace",
+        "price": 1000,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/97/Brick_Fireplace.png/36px-Brick_Fireplace.png"
+    },
+    {
+        "name": "Stone Fireplace",
+        "type": "fireplace",
+        "price": 1500,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c2/Stone_Fireplace.png/36px-Stone_Fireplace.png"
+    },
+    {
+        "name": "Burlap Rug",
+        "type": "rug",
+        "price": 350,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/4/49/Burlap_Rug.png"
+    },
+    {
+        "name": "Woodcut Rug",
+        "type": "rug",
+        "price": 800,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/1/12/Woodcut_Rug.png"
+    },
+    {
+        "name": "Funky Rug",
+        "type": "rug",
+        "price": 4000,
+        "rare": true,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/63/Funky_Rug.png/96px-Funky_Rug.png"
+    },
+    {
+        "name": "Country Lamp",
+        "type": "lamp",
+        "price": 500,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/fd/Country_Lamp.png/36px-Country_Lamp.png"
+    },
+    {
+        "name": "Candle Lamp",
+        "type": "lamp",
+        "price": 1000,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f4/Candle_Lamp.png/36px-Candle_Lamp.png"
+    },
+    {
+        "name": "Basic Window",
+        "type": "window",
+        "price": 300,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/fc/Basic_Window.png/36px-Basic_Window.png"
+    },
+    {
+        "name": "Ornate Window",
+        "type": "window",
+        "price": 900,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/46/Ornate_Window.png/36px-Ornate_Window.png"
+    },
+    {
+        "name": "Budget TV",
+        "type": "television",
+        "price": 750,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f9/Budget_TV.png/72px-Budget_TV.png"
+    },
+    {
+        "name": "Plasma TV",
+        "type": "television",
+        "price": 4500,
+        "rare": true,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/be/Plasma_TV.png/72px-Plasma_TV.png"
+    },
+    {
+        "name": "Single Bed",
+        "type": "bed",
+        "price": 500,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/25/Single_Bed.png/48px-Single_Bed.png"
+    },
+    {
+        "name": "Fisher Double Bed",
+        "type": "bed",
+        "price": 25000,
+        "rare": true,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e4/Fisher_Double_Bed.png/72px-Fisher_Double_Bed.png"
+    },
+    {
+        "name": "Double Bed",
+        "type": "bed",
+        "price": 2000,
+        "rare": false,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/ba/Double_Bed.png/72px-Double_Bed.png"
+    },
+    {
+        "name": "Solar Kingdom",
+        "type": "art",
+        "price": 1200,
+        "rare": true,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/ed/%27Solar_Kingdom%27.png/54px-%27Solar_Kingdom%27.png"
+    },
+    {
+        "name": "Three Trees",
+        "type": "art",
+        "price": 1200,
+        "rare": true,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/ad/%27Three_Trees%27.png/54px-%27Three_Trees%27.png"
+    },
+    {
+        "name": "Land Of Clay",
+        "type": "art",
+        "price": 1200,
+        "rare": true,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/9f/%27Land_Of_Clay%27.png/54px-%27Land_Of_Clay%27.png"
+    },
+    {
+        "name": "Calico Falls",
+        "type": "art",
+        "price": 750,
+        "rare": true,
+        "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/ac/Calico_Falls.png/72px-Calico_Falls.png"
+    }
+    
+]
