@@ -14,13 +14,10 @@ function App() {
   const [total, setTotal] = useState(0);
   const [filterSort, setFilterSort] = useState(["all", "all", "none"]);
   const allTypes = [...new Set(data.map((item) => item.type))];
-  const [rareChecked, setRareChecked] = useState("all");
-  const [typeChecked, setTypeChecked] = useState("all");
-  const [sortValue, setSortValue] = useState("none");
+
   function sortArray(e) {
     e = e.target.value;
     console.log(e);
-    setSortValue(e);
     const copyData = [...filterSort];
     copyData[2] = e;
     setFilterSort(copyData);
@@ -29,14 +26,10 @@ function App() {
   function filterRare(e) {
     e = e.target.value;
     if (e === "true") {
-      setRareChecked("true");
       e = true;
     } else if (e === "false") {
       e = false;
-      setRareChecked("false");
-    } else {
-      setRareChecked("all");
-    }
+    } 
     console.log(e);
     
     const copyData = [...filterSort];
@@ -47,7 +40,6 @@ function App() {
   function filterType(e) {
     e = e.target.value;
     console.log(e);
-    setTypeChecked(e);
     const copyData = [...filterSort];
     copyData[0] = e;
     setFilterSort(copyData);
@@ -102,9 +94,7 @@ function App() {
 
   function resetItems() {
     setDecorData([...data]);
-    setTypeChecked("all");
-    setRareChecked("all");
-    setSortValue("none");
+    setFilterSort(["all", "all", "none"]);
   }
 
   
@@ -117,7 +107,7 @@ function App() {
         <div className="filter-sort">
           <div className="sort-container">
             Sort
-            <select value={sortValue}  onChange={sortArray}>
+            <select value={filterSort[2]}  onChange={sortArray}>
               <option value="none">None</option>
               <option value="lowToHigh">Price Low To High</option>
               <option value="highToLow" >Price High To Low</option>
@@ -127,12 +117,12 @@ function App() {
             Filter by type
             <fieldset onChange={filterType}>
               <label key="none">
-                <input type="radio" name="type" value="all" checked={typeChecked === "all"} />
+                <input type="radio" name="type" value="all" checked={filterSort[0] === "all"} />
                 All
               </label>
               {allTypes.map((type) => (
                 <label key={type}>
-                  <input type="radio" name="type" value={type} checked={typeChecked === type}/>
+                  <input type="radio" name="type" value={type} checked={filterSort[0] === type}/>
                   {type}
                 </label>
               ))}
@@ -140,15 +130,15 @@ function App() {
             Filter by rarity
             <fieldset onChange={filterRare}>
               <label key="none">
-                <input type="radio" name="rare" value="all" checked={rareChecked === "all"}/>
+                <input type="radio" name="rare" value="all" checked={filterSort[1] === "all"}/>
                   All
                 </label>
               <label key="rare">
-                <input type="radio" name="rare" value={true} checked={rareChecked === "true"} />
+                <input type="radio" name="rare" value="true" checked={filterSort[1] === true} />
                   Rare
               </label>
               <label key="not rare">
-                <input type="radio" name="rare" value={false} checked={rareChecked === "false"}/>
+                <input type="radio" name="rare" value="false" checked={filterSort[1] === false}/>
                   Not Rare
               </label>
             </fieldset>
